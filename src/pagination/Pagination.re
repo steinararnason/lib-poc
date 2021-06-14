@@ -1,4 +1,4 @@
-[@bs.module "./pagination"] [@react.component]
+[@bs.module "./index"] [@react.component]
 external make:
   (
     ~page: int,

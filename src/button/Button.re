@@ -1,4 +1,4 @@
-[@bs.module "./button"] [@react.component]
+[@bs.module "./index"] [@react.component]
 external make:
   (
     ~id: string=?,
