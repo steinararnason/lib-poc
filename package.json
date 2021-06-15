@@ -6,7 +6,8 @@
     "rollup:button": "rollup -c src/button/rollup.config.js",
     "rollup:pagination": "rollup -c src/pagination/rollup.config.js",
     "clean": "rimraf dist",
-    "build": "yarn clean && yarn build:ts && yarn rollup:button && yarn rollup:pagination"
+    "build": "yarn clean && yarn build:ts && yarn rollup:button && yarn rollup:pagination",
+    "tarball": "./scripts/pack.sh"
   },
   "peerDependencies": {
     "react": "17.0.2"
