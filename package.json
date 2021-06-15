@@ -1,5 +1,6 @@
 {
   "name": "lib-poc",
+  "version": "0.0.1",
   "scripts": {
     "build:ts": "tsc --build tsconfig.json",
     "rollup:button": "rollup -c src/button/rollup.config.js",
